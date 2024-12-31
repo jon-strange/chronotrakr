@@ -1,0 +1,164 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1a1d33, #2a2d43);
+      color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      background-color: #2a2d43ff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      margin: 20px;
+      width: 90%;
+      border: 1.5px solid #555;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #ddd;
+    }
+
+    .project-list, .task-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .project-item, .task-item {
+      background-color: #414361ff;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s ease;
+      border: 1px solid #555;
+    }
+
+    .project-item:hover, .task-item:hover {
+      background-color: #4a4d6a;
+    }
+
+    .project-item h3, .task-item h4 {
+      margin: 0;
+      color: #eee;
+    }
+
+    .project-item .actions, .task-item .actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .project-item button, .task-item button {
+      background: none;
+      border: none;
+      color: #bbb;
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: color 0.3s ease;
+    }
+
+    .project-item button:hover, .task-item button:hover {
+      color: #eee;
+    }
+
+    .add-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .add-form input, .add-form select {
+      padding: 10px;
+      border: 1px solid #555;
+      background-color: #333;
+      color: #f0f0f0;
+      border-radius: 5px;
+      flex: 1;
+    }
+
+    .add-form button {
+      padding: 10px 15px;
+      background-color: #7f2ccbff;
+      color: #f0f0f0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-form button:hover {
+      background-color: #9a48d1;
+    }
+
+    .timer-controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .timer-controls button {
+      padding: 10px 15px;
+      background-color: #555;
+      color: #f0f0f0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .timer-controls button:hover {
+      background-color: #777;
+    }
+
+    .invoice-button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #7f2ccbff;
+      color: #f0f0f0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .invoice-button:hover {
+      background-color: #9a48d1;
+    }
+
+    .time-log {
+      margin-top: 5px;
+      font-size: 0.9em;
+      color: #bbb;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 0;
+    }
+
+    .time-log button {
+      background: none;
+      border: none;
+      color: #bbb;
+      cursor: pointer;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+
+    .time-log button:hover {
+      color: #eee;
+    }
